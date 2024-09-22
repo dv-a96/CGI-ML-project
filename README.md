@@ -4,6 +4,8 @@
 Our project aims to detect bone fractures by combining Ghost Imaging (GI) with machine learning. In this research, we explore the potential of using GI-captured X-rays and advanced algorithms to identify fractures more accurately. By using this technique, we hope to reduce radiation exposure during medical diagnoses, providing a safer alternative for patients undergoing X-ray evaluations. Our goal is to investigate whether this approach can enhance diagnostic precision while minimizing health risks.
 This project is a continuing of a previus reaserch done by Noa Tal & Hadar Leiman, a documenatation of their project can be found [here](https://github.com/HadarLeiman/GI_Machine_Learning_Project/tree/master).
 
+## Rquierments
+
 
 ## Dataset
 In our project we mainly used two Datasets:
@@ -22,4 +24,11 @@ Wrist_transfer_learning: This folder holds the code where we applied transfer le
 Statistical_Analysis: This golder contain a code that perform analysis to the samples the model from the previous part didn't learn correctly.
 
 To run the project please download/clone the folder you are interested in and see the following detailes.
+
+## How to use
+The first part is independent, independent the second and third part come together. The results of the second part are necessary to run the third part.
+
+
+
+
 
