@@ -31,7 +31,8 @@ The first part is independent, independent the second and third part come togeth
 There are two files in this folder - `Gi_Minst_Regular.py` which is a neural netwotk that we built using the packgae `keras`, and `GI_Minst_research_model.py` which is a neural network based on the architecture from [this article](https://pubmed.ncbi.nlm.nih.gov/34624000/). To run this part follow these step:
 1. Download the MNIST folder
 2. Choose a neural network you wnat and run the choosen `.py` file
- 
+
+Note: in `Gi_Minst_Regular.py` you should define a path to save the trained model.
 
 
 
