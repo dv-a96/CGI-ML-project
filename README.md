@@ -10,7 +10,7 @@ In our project we mainly used two Datasets:
 * MNIST
 * Wrist
 
-The wrist dataset is a publicly available dataset of wrist X-ray images which we later preprocessed to generate GI measurements for training and evaluating our neural network model. You can download the dataset from here.
+The wrist dataset is a publicly available dataset of wrist X-ray images which we later preprocessed to generate GI measurements for training and evaluating our neural network model. You can download the dataset from [here](https://www.nature.com/articles/s41597-022-01328-z#Sec9).
 
 ## Code Parts
 Our project consists of three code parts, each contained in its respective folder:
