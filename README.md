@@ -5,7 +5,8 @@ Our project aims to detect bone fractures by combining Ghost Imaging (GI) with m
 This project is a continuing of a previus reaserch done by Noa Tal & Hadar Leiman, a documenatation of their project can be found [here](https://github.com/HadarLeiman/GI_Machine_Learning_Project/tree/master).
 
 ## Rquierments
-
+Install the required packages using the command:
+`pip install torch torchvision pandas numpy tqdm Pillow wandb`
 
 ## Dataset
 In our project we mainly used two Datasets:
