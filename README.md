@@ -1,7 +1,7 @@
 # CGI-ML-project
-###Authors: Noa Tal & Hadar Leiman
+### Authors: Noa Tal & Hadar Leiman
 
-##Code Parts
+## Code Parts
 Our project consists of three distinct code parts, each contained in its respective folder:
 
 GI_MINST: This folder contains the code for reproducing the results of this article.
