@@ -39,6 +39,8 @@ To run this part downlaod the `Wrist_transfer_learning` and locate the main file
 
 In the `model_pipline.py` and `our_nn.py` files you can adjust the model configuration and hyper parameters such as learning rate, number of epochs etc. In addition you can switch between few networks architectures like efficientnet, ResNet152 or VGG.
 
+The output of this code section is the acuuracy of the trained model and two files - 
+
 
 
 
