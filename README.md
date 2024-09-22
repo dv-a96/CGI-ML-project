@@ -35,7 +35,9 @@ There are two files in this folder - `Gi_Minst_Regular.py` which is a neural net
 Note: in `Gi_Minst_Regular.py` you should define a path to save the trained model for future use.
 
 ### Wrist_transfer_learning + Statistical_Analysis
+To run this part downlaod the `Wrist_transfer_learning` and locate the main file - `run.py` and run it.
 
+In the `model_pipline.py` and `our_nn.py` files you can adjust the model configuration and hyper parameters such as learning rate, number of epochs etc. In addition you can switch between few networks architectures like efficientnet, ResNet152 or VGG.
 
 
 
