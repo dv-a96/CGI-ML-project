@@ -21,7 +21,7 @@ MINST: This folder contains the code for reproducing the results of this article
 
 Wrist_transfer_learning: This folder holds the code where we applied transfer learning to the wrist fracture dataset.
 
-Statistical_Analysis: This golder contain a code that perform analysis to the samples the model from the previous part didn't learn correctly.
+Statistical_Analysis: This folder contain a code that perform analysis to the samples the model from the previous part didn't learn correctly.
 
 To run the project please download/clone the folder you are interested in and see the following detailes.
 
@@ -33,6 +33,11 @@ There are two files in this folder - `Gi_Minst_Regular.py` which is a neural net
 2. Choose a neural network you wnat and run the choosen `.py` file
 
 Note: in `Gi_Minst_Regular.py` you should define a path to save the trained model.
+
+### Wrist_transfer_learning + Statistical_Analysis
+
+
+
 
 
 
