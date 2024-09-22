@@ -32,7 +32,7 @@ There are two files in this folder - `Gi_Minst_Regular.py` which is a neural net
 1. Download the MNIST folder
 2. Choose a neural network you wnat and run the choosen `.py` file
 
-Note: in `Gi_Minst_Regular.py` you should define a path to save the trained model.
+Note: in `Gi_Minst_Regular.py` you should define a path to save the trained model for future use.
 
 ### Wrist_transfer_learning + Statistical_Analysis
 
