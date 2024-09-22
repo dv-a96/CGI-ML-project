@@ -1,4 +1,4 @@
-# CGI-ML-project
+# Medical diagnosis using X-ray imaging based on machine learning
 #### Authors: Shahr Samur & Dvir Adler
 
 Our project aims to detect bone fractures by combining Ghost Imaging (GI) with machine learning. In this research, we explore the potential of using GI-captured X-rays and advanced algorithms to identify fractures more accurately. By using this technique, we hope to reduce radiation exposure during medical diagnoses, providing a safer alternative for patients undergoing X-ray evaluations. Our goal is to investigate whether this approach can enhance diagnostic precision while minimizing health risks.
