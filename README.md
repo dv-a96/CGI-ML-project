@@ -39,7 +39,9 @@ To run this part downlaod the `Wrist_transfer_learning` and locate the main file
 
 In the `model_pipline.py` and `our_nn.py` files you can adjust the model configuration and hyper parameters such as learning rate, number of epochs etc. In addition you can switch between few networks architectures like efficientnet, ResNet152 or VGG.
 
-The output of this code section is the acuuracy of the trained model and two files - 
+The output of this code section is the acuuracy of the trained model and two files - `false_negatives.csv` and `false_positives.csv`. In this files there are samples that recognized incorrectly by the model and classsified to the wrong output class. These file are used for downstream analisys.
+
+To get a bird'a eye view about the samples that the model didn't learn correctly you can downlaod the `Statistical_Analysis folder`. The folder contains a `stat.py` file that gives statistical analysis and insights about the samples, and three `.csv` files which are the input files foe the code. All the `.csv` files should be place in the same directory as `stat.py`. The file `dataset.csv` is givven in this folder, and for `false_negatives.csv` and `false_positives.csv` you can either use the output of the previus section or use the givven files. 
 
 
 
