@@ -1,7 +1,7 @@
 # Import the W&B Python Library and log into W&B
 import wandb
 import os
-from model_pipeline import model_pipeline, accuracy_data
+from model_pipeline_sweep import model_pipeline, accuracy_data
 
 wandb.login()
 
