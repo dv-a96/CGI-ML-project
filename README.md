@@ -70,12 +70,11 @@ Run the `main_sweep.py` file to initiate the wandb sweep:
 `python main_sweep.py`
 
 4. Configuration:
-   
+  
 The `main_sweep.py` file handles the configuration for the wandb sweep. It will use the model_pipeline_sweep.py file for training and evaluating the model.
 You can customize hyperparameters such as learning rate, number of epochs, model architecture, and more within the`main_sweep.py` file.
 
 5. Dataset Choice:
-
 You can switch between the original preprocessed dataset or the augmented dataset by modifying the paths in `model_pipeline_sweep.py`.
 Both datasets are located in the Processed_Dataset folder.
 
