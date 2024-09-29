@@ -53,24 +53,20 @@ To get a bird's eye view about the samples that the model didn't learn correctly
 ### Run with Wandb
 We provide the ability to run experiments using Weights and Biases (wandb) for tracking hyperparameter sweeps and logging results. To use this feature, follow these steps:
 
-1. Setup wandb:
-   
+1. Setup wandb:  
 Make sure you have a wandb account and have installed the wandb library:
 `pip install wandb`
 
 2. Login to wandb:
-
 Before running the code, log in to your wandb account using the following command:
 `wandb login`
 
-3. Run the sweep:
-   
+3. Run the sweep:  
 Go to the Wrist_transfer_learning folder.
 Run the `main_sweep.py` file to initiate the wandb sweep:
 `python main_sweep.py`
 
-4. Configuration:
-  
+4. Configuration: 
 The `main_sweep.py` file handles the configuration for the wandb sweep. It will use the model_pipeline_sweep.py file for training and evaluating the model.
 You can customize hyperparameters such as learning rate, number of epochs, model architecture, and more within the`main_sweep.py` file.
 
