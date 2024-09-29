@@ -38,14 +38,46 @@ There are two files in this folder - `Gi_Minst_Regular.py` which is a neural net
 Note: in `Gi_Minst_Regular.py` you should define a path to save the trained model for future use.
 
 ### Wrist_transfer_learning + Statistical_Analysis
+
+Before running, to define which dataset to use go to `model_pipeline.py` and in the `make_loaders` function choose between the regular dataset to the augmemted dataset.
+
 To run this part downlaod the `Wrist_transfer_learning` and locate the main file - `run.py` and run it.
 
 In the `model_pipline.py` and `our_nn.py` files you can adjust the model configuration and hyper parameters such as learning rate, number of epochs etc. In addition you can switch between few networks architectures like efficientnet, ResNet152 or VGG.
 
 The output of this code section is the acuuracy of the trained model and two files - `false_negatives.csv` and `false_positives.csv`. In this files there are samples that recognized incorrectly by the model and classsified to the wrong output class. These file are used for downstream analisys.
 
-To get a bird'a eye view about the samples that the model didn't learn correctly you can downlaod the `Statistical_Analysis folder`. The folder contains a `stat.py` file that gives statistical analysis and insights about the samples, and three `.csv` files which are the input files foe the code. All the `.csv` files should be place in the same directory as `stat.py`. The file `dataset.csv` is givven in this folder, and for `false_negatives.csv` and `false_positives.csv` you can either use the output of the previus section or use the givven files. 
+To get a bird's eye view about the samples that the model didn't learn correctly you can downlaod the `Statistical_Analysis folder`. The folder contains a `stat.py` file that gives statistical analysis and insights about the samples, and three `.csv` files which are the input files foe the code. All the `.csv` files should be place in the same directory as `stat.py`. The file `dataset.csv` is givven in this folder, and for `false_negatives.csv` and `false_positives.csv` you can either use the output of the previus section or use the givven files. 
 
+
+### Run with Wandb
+We provide the ability to run experiments using Weights and Biases (wandb) for tracking hyperparameter sweeps and logging results. To use this feature, follow these steps:
+
+1. Setup wandb:
+   
+Make sure you have a wandb account and have installed the wandb library:
+`pip install wandb`
+
+2. Login to wandb:
+
+Before running the code, log in to your wandb account using the following command:
+`wandb login`
+
+3. Run the sweep:
+   
+Go to the Wrist_transfer_learning folder.
+Run the `main_sweep.py` file to initiate the wandb sweep:
+`python main_sweep.py`
+
+4. Configuration:
+   
+The `main_sweep.py` file handles the configuration for the wandb sweep. It will use the model_pipeline_sweep.py file for training and evaluating the model.
+You can customize hyperparameters such as learning rate, number of epochs, model architecture, and more within the`main_sweep.py` file.
+
+5. Dataset Choice:
+
+You can switch between the original preprocessed dataset or the augmented dataset by modifying the paths in `model_pipeline_sweep.py`.
+Both datasets are located in the Processed_Dataset folder.
 
 
 
