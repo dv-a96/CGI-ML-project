@@ -24,10 +24,12 @@ Wrist_transfer_learning: This folder holds the code where we applied transfer le
 
 Statistical_Analysis: This folder contain a code that perform analysis to the samples the model from the previous part didn't learn correctly.
 
+Processed_Dataset: This folder contains the datset after preprucessing. There are two datasets in the folder, a regulat one called 'new_dataset_1024_64_128.csv` and one after augmentation called `augmantation_data.csv`
+
 To run the project please download/clone the folder you are interested in and see the following detailes.
 
 ## How to use
-The first part is independent, independent the second and third part come together. The results of the second part are necessary to run the third part.
+The first part is independent, independent the other parts come together. The results of the second part are necessary to run the third part.
 ### MNIST
 There are two files in this folder - `Gi_Minst_Regular.py` which is a neural netwotk that we built using the packgae `keras`, and `GI_Minst_research_model.py` which is a neural network based on the architecture from [this article](https://pubmed.ncbi.nlm.nih.gov/34624000/). To run this part follow these step:
 1. Download the MNIST folder
